@@ -1,0 +1,135 @@
+body {
+  background-color: black;
+  color: white;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: content-box;
+}
+.top {
+  background-image: url("photos/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 115vh;
+  font-weight: bold;
+}
+
+.top_text h1 {
+  border: orange solid;
+  font-size: 3.2rem;
+}
+
+.top_text h2 {
+  font-size: 1.5rem;
+}
+
+.top button {
+  background-color: red;
+  color: white;
+}
+
+.nav {
+  border: yellow solid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  row-gap: 105;
+  padding: 3%;
+  justify-content: space-around;
+  /* width: 100%; */
+}
+
+.nav h1 {
+  color: red;
+  font-family: "Graphique";
+  font-size: xx-large;
+}
+
+.nav select,
+button {
+  padding: 1%;
+  border-radius: 5px;
+}
+
+.nav select {
+  border: white solid;
+  background: transparent;
+  color: white;
+  border-width: thin;
+}
+
+.nav button {
+}
+
+.nav select option {
+  background-color: rgba(128, 128, 128, 0.733);
+}
+
+hr {
+  height: 8px;
+  background-color: rgb(24, 23, 23);
+  border: none;
+}
+/* ********************************************************* */
+/* 2nd element in web page */
+.mid1 {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 25em;
+  justify-content: space-evenly;
+}
+
+.text_mid1 {
+  height: fit-content;
+  font-size: x-large;
+  text-align: center;
+  position: relative;
+  /* left: 3em; */
+  top: 4em;
+  justify-content: left;
+}
+
+.text_mid1 p {
+  position: relative;
+  left: 22%;
+  width: 60%;
+  text-align: justify;
+}
+
+.display_mid1 {
+  /* border: yellow solid; */
+  width: 60%;
+  background-image: url("photos/tv.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/* ************************************************************ */
+/* 3rd element in the webpage */
+.mid2 {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 23em;
+}
+
+.mid2_display {
+  background-image: url("photos/mid2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  border: yellow solid;
+  width: 40%;
+}
+
+.mid2_text {
+  border: orange solid;
+  text-align: justify;
+  position: relative;
+  left: 2em;
+  font-size: large;
+}
