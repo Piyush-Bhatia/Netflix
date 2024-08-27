@@ -24,6 +24,17 @@ body {
   box-shadow: 0px 25px 35px 5px rgb(3, 163, 255);
 }
 
+.input-email::before{
+  content:'Email address';
+  color: black;
+}
+
+.button{
+  background: url('./photos/1.jpg');
+}
+
+
+
 /* .select{
   padding-left: 15px;
   padding-right: 15px;
