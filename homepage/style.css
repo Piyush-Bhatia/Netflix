@@ -118,3 +118,17 @@ body {
   border: none;
   border-radius: 5px;
 }
+
+.input-email-div2 input{
+  padding: 15px;
+  height: 60px;
+  width: 40rem;
+  color: white;
+  border: 1px rgb(141, 139, 139) solid;
+  border-radius: 7px;
+  background: rgb(39, 39, 39);
+}
+
+.input-email::placeholder{
+  color: white;
+}
